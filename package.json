@@ -1,0 +1,30 @@
+{
+  "name": "terraform-aws-circleci-nodejs",
+  "version": "0.1.0",
+  "description": "Sample Node JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --reporter mocha-junit-reporter --reporter-options mochaFile=c:/temp/test-results/results.xml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n745247/terraform-aws-circleci-nodejs.git"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "DevSecOps",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n745247/terraform-aws-circleci-nodejs/issues"
+  },
+  "homepage": "https://github.com/n745247/terraform-aws-circleci-nodejs/blob/main/README.md",
+  "dependencies": {
+    "@slack/events-api": "^2.3.4",
+    "@slack/web-api": "^6.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "mocha-junit-reporter": "^2.0.0"
+  }
+}
